@@ -1,0 +1,5 @@
+<camera class="camera" device-position="{{devicePosition}}" frame-size="medium" flash="off" binderror="onCameraError">
+  <canvas class="pose-canvas" canvas-id="pose">
+    <cover-view class="cover-btn" bindtap="handleSwitchCamera">切换摄像头</cover-view>
+  </canvas>
+</camera>

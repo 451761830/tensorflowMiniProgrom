@@ -1,0 +1,25 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cameraFaceDetection/cameraFaceDetection",
+    "pages/cameraFaceRecognition/cameraFaceRecognition",
+    "pages/cameraItemIdentification/cameraItemIdentification",
+    "pages/cameraTargetDetection/cameraTargetDetection",
+    "pages/cameraBodyDetection/cameraBodyDetection",
+    "pages/SampleCollectionIdentification/SampleCollectionIdentification"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "TensorFlow",
+    "navigationBarTextStyle": "black"
+  },
+  "plugins": {
+    "tfjsPlugin": {
+      "version": "0.1.0",
+      "provider": "wx6afed118d9e81df9"
+    }
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,10 @@
+camera{
+  width: 576rpx; 
+  height: 704rpx;
+  z-index: 5;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
